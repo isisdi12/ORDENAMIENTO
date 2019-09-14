@@ -1,0 +1,25 @@
+
+p{
+    text-align: center;
+    vertical-align: center;
+    color: aliceblue;
+}
+
+.grafico {
+    position: relative; /* IE is dumb */
+    width: 200px;
+    border: 1px solid rgb(18, 122, 163);
+    padding: 2px;
+    }
+    .grafico .barra {
+    display: block;
+    position: relative;
+    background: rgb(18, 122, 163);
+    text-align: center;
+    color: #333;
+    height: 2em;
+    line-height: 2em;
+    }
+    .grafico .barra span {
+    position: absolute; left: 1em;
+    }
